@@ -832,8 +832,6 @@ form a:hover {
   width: 100%;
   height: auto;
   padding: 30px;
-  position: absolute;
-  top: 0px;
 }
 .bag_clip_cover .clip_discount p {
   color: white;
@@ -853,30 +851,29 @@ form a:hover {
   color: #232442;
 }
 .bag_clip_cover .bag_image {
-  background-image: url("/assets/image/new_bag.jpg");
-  width: 100%;
-  background-size: cover;
   display: none;
 }
 
 .bag {
   padding-bottom: 40px;
-  margin-top: -30px;
-  min-height: 300px;
 }
 
 @media only screen and (min-width: 768px) {
   .bag_clip_cover .bag_image {
     display: block !important;
-    /* height: 435px; */
     width: 100%;
     height: 435px;
+    background-image: url("../image/new_bag.jpg");
+    width: 100%;
+    background-size: cover;
   }
   .clip_discount {
     height: 435px !important;
     width: 70% !important;
     -webkit-clip-path: polygon(0 0, 95% 0, 73% 100%, 0% 100%);
             clip-path: polygon(0 0, 95% 0, 73% 100%, 0% 100%);
+    position: absolute;
+    top: 0px;
   }
   .clip_discount p {
     width: 543px;

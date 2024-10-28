@@ -1045,8 +1045,7 @@ form{
         width: 100%;
         height:auto;
         padding: 30px;
-        position: absolute;
-        top: 0px;
+        
         p{
             color: white;
             font-size: 38px;
@@ -1071,10 +1070,6 @@ form{
 
     }
     .bag_image{
-        background-image: url('/assets/image/new_bag.jpg');
-        width: 100%;
-        background-size: cover;
-        // min-height: 300px;
         display: none;
        
     }
@@ -1083,8 +1078,6 @@ form{
 }
 .bag{
     padding-bottom: 40px;
-    margin-top: -30px;
-   min-height: 300px;
 }
 
 
@@ -1092,20 +1085,20 @@ form{
     .bag_clip_cover{
         .bag_image{
             display: block !important;
-            /* height: 435px; */
             width: 100%;
             height: 435px;
+            background-image: url("../image/new_bag.jpg");
+            width: 100%;
+            background-size: cover;
         }
-            // img{
-            //     height: 435px;
-            
-
-            // }
+           
         }
         .clip_discount{
             height: 435px !important;
             width: 70% !important;
             clip-path: polygon(0 0, 95% 0, 73% 100%, 0% 100%);
+            position: absolute;
+            top: 0px;
             p{
                 width: 543px;
                 font-size: 100px !important;
