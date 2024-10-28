@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- cdn -->
+     <!-- font awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css ">
+        <!-- google font  -->
+        
+        
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- css -->
+
+       <!-- bootstrap -->
+       <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+       <!-- swiper -->
+       <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+       <!-- mmenu -->
+       <link rel="stylesheet" href="assets/css/mmenu-light.css">
+       <!-- custom -->
+        <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<header class="header">
+    <div class="header_bg_color" >
+        <div class="header_bg_left">
+
+        </div>
+        <div class="header_bg_right">
+            
+        </div>
+
+    </div>
+    <div class="container_outter_div">
+        <div class="my_container">
+        
+            <div class="header_cover ">
+                <div class="logo">
+                    <a href="index.htm"><img src="assets/image/lion -logo.png" alt=""></a>
+                </div>
+                <nav>
+                 
+                    <ul>
+                        <li class="for_lg"><a href="Tel:123456789"><i class="fa-solid fa-phone" style="    font-size: 14px;font-weight: 600;"></i> <span class="span-1">7213456789</span></a></li>
+                        <li ><a href="#"><span>
+                            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" style="border: none; background-color: unset;">
+                                Log in
+                              </button>
+                        </span> <img src="assets/image/log-in.png" style="margin-left: 4px;margin-right: 19px" alt=""></a></li>
+                        <li class="for_lg"><a href="#"><span>
+                            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal-sign_up" style="border: none; background-color: unset;">
+                                Sign up
+                              </button>
+                        </span><i class="fa-solid fa-user person" ></i></a></li>
+                        <li class="for_lg"><a href="#"><img src="/assets/image/cart.png" alt=""></a></li>
+                        <li ><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                        
+                 
+                        <!-- <li></li> -->
+                    </ul>
+                    <!-- Button trigger modal -->
+
+  <!-- Modal sign up-->
+  <div class="modal fade" id="exampleModal-sign_up" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content" style="height: 400px;">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Sign up</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form action="#" method="post">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Sign Up</button>
+              </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modal log in-->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content" style="height: 340px;">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Log in</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form action="#" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Login</button>
+              </form>
+        </div>
+      </div>
+    </div>
+  </div>
+                    <a href="#menu" class="a-menu"><div class="m_icon">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div></a>
+                </nav>
+        
+            </div>
+             <!-- The menu -->
+             <nav id="menu">
+                <ul>
+                    <li><a href="index.htm" class="active">Home</a></li>
+                    <li><a href="/work">Our work</a></li>
+                    <li><span>About us</span>
+                        <ul>
+                            <li><a href="about_us.htm">History</a></li>
+                            <li><span>The team</span>
+                                <ul>
+                                    <li><a href="/about/team/management">Management</a></li>
+                                    <li><a href="/about/team/sales">Sales</a></li>
+                                    <li><a href="/about/team/development">Development</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><span>Services</span>
+                        <ul>
+                            <li><a href="/services/design">Design</a></li>
+                            <li><a href="/services/development">Development</a></li>
+                            <li><a href="/services/marketing">Marketing</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact_us.htm">Contact</a></li>
+                </ul>
+            </nav>
+    
+        </div>
+    </div>
+
+
+</header>
+
+ <section class="banner" style="position: relative;">
+    <div class="header_bg_color" >
+        <div class="header_bg_left banner_color_left" style="position: relative;">
+            <!-- <div class="triangle" style="
+                 clip-path: polygon(100% 50%, 0 0, 0 100%); position: absolute; right: 0px; bottom: 0px;">
+
+            </div> -->
+
+        </div>
+        <div class="header_bg_right banner_color_left">
+            
+        </div>
+
+    </div>
+    <div class="container_outter_div">
+    <div class="my_container" >
+
+       
+        <div class="banner_cover">
+            <div class="banner_text">
+
+                <h6>ALL IN ONE SHOP</h6>
+                <p>Lorem ipsum dolor sit amet. <br>Lorem ipsum amet.</p>
+                <a href="#">BUY NOW</a>
+            </div>
+            <!-- swiper -->
+                
+                <div class="swiper mySwiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./assets/image/hat-.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./assets/image/hat-.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./assets/image/hat-.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./assets/image/hat-.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./assets/image/hat-.png" alt=""></div>
+  
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+
+                
+          
+
+          
+        </div>
+
+       
+    </div>
+</div>
+</section> 
+
+
+<section class="all_categories">
+    <div class="my_container">
+        <div class="all_categories_wraper">
+            <h3 class="h3-center">CATEGORIES</h3>
+            <div class="all_links_categories">
+               
+               <ul>
+                   <li><a href="#">Clothing</a></li>
+                   <li><a href="#">Electronics</a></li>
+                   <li><a href="#">Shoes</a></li>
+                   <li><a href="#">Watches</a></li>
+                   <li><a href="#">Jewellery</a></li>
+                   <li><a href="#">Health and Beauty</a></li>
+                   <li><a href="#">Kids and Babies</a></li>
+                   <li><a href="#">Sports</a></li>
+                   <li><a href="#">Home and Garden</a></li>
+               </ul>
+            </div>
+        </div>
+    </div>
+</section>
+ 
+
+
+<section class="categories">
+    <div class="my_container">
+        <div class="categories_cover">
+           
+             <div class="new_brands_t-shirt">
+                 <h3>NEW BRANDS</h3>
+                 <div class="t_shirt_cards">
+                   <div class="myCard_wraper">
+                    <div class="myCard">
+                        <div class="image ">
+                            <img src="./assets/image/t-shirt-4.png" alt=""> 
+                        </div>
+                        <h6>Price $100</h6>
+                        <p>Sale</p>
+                     </div>
+                     <a href="#">Buy Now</a>
+                   </div>
+                   <div class="myCard_wraper">
+                    <div class="myCard">
+                        <div class="image ">
+                            <img src="./assets/image/t-shirt-3.png" alt="">
+                            
+                        </div>
+                        <h6>Price $100</h6>
+                            <p>Sale</p>
+                     </div>
+                     <a href="#">Buy Now</a>
+                   </div>
+                   <div class="myCard_wraper">
+                    <div class="myCard">
+                        <div class="image ">
+                            <img src="./assets/image/t-shirt-2.png" alt="">
+                           
+                        </div>
+                        <h6>Price $100</h6>
+                        <p>Sale</p>
+                     </div>
+                     <a href="#">Buy Now</a>
+                   </div>
+                   <div class="myCard_wraper">
+                    <div class="myCard">
+                        <div class="image ">
+                            <img src="./assets/image/t-shirt-1.png" alt="">
+                            
+                        </div>
+                        <h6>Price $100</h6>
+                            <p>Sale</p>
+                     </div>
+                     <a href="#">Buy Now</a>
+                   </div>
+                 </div>
+                
+             </div>
+             <div class="see_more"><a href="#" >See more</a></div>
+
+
+        </div>
+    </div>
+</section>
+
+<section class="categories-shoe">
+    <div class="my_container">
+        <div class="categories_cover">
+           
+             <div class="new_brands_t-shirt" style="margin-top: 50px;">
+                 <h3>NEW SHOES</h3>
+                 <div class="t_shirt_cards">
+                   <div class="myCard_wraper">
+                    <div class="myCard">
+                        <div class="image-shoe">
+                            <img src="./assets/image/shoe.png" alt="" style="margin-top: 60px;"> 
+                        </div>
+                        <h6 style="    margin-top: 14px;">Price $100</h6>
+                        <p>Sale</p>
+                     </div>
+                     <a href="#">Buy Now</a>
+                   </div>
+                   <div class="myCard_wraper">
+                    <div class="myCard">
+                        <div class="image-shoe">
+                            <img src="./assets/image/shoe.png" alt="" style="margin-top: 60px;"> 
+                        </div>
+                        <h6 style="    margin-top: 14px;">Price $100</h6>
+                        <p>Sale</p>
+                     </div>
+                     <a href="#">Buy Now</a>
+                   </div>
+                   <div class="myCard_wraper">
+                    <div class="myCard">
+                        <div class="image-shoe">
+                            <img src="./assets/image/shoe.png" alt="" style="margin-top: 60px;"> 
+                        </div>
+                        <h6 style="    margin-top: 14px;">Price $100</h6>
+                        <p>Sale</p>
+                     </div>
+                     <a href="#">Buy Now</a>
+                   </div>
+                   <div class="myCard_wraper">
+                    <div class="myCard">
+                        <div class="image-shoe">
+                            <img src="./assets/image/shoe.png" alt="" style="margin-top: 60px;"> 
+                        </div>
+                        <h6 style="    margin-top: 14px;">Price $100</h6>
+                        <p>Sale</p>
+                     </div>
+                     <a href="#">Buy Now</a>
+                   </div>
+                 </div>
+                
+             </div>
+             <div class="see_more"><a href="#" >See more</a></div>
+
+
+        </div>
+    </div>
+</section>
+
+
+<section class="bag" >
+    <div class="my_container">
+        <div class="bag_clip_cover">
+            <div class="bag_image">
+                <!-- <img src="assets/image/bag.png" alt=""> -->
+                
+            </div>
+            <div class="clip_discount">
+                <p style="    font-family: 'Poppins Medium';">save up to 50%</p>
+                <div class="discount_link" style=" margin: 0 auto;">
+                    <a href="#">Buy now</a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<section class="categories">
+    <div class="my_container">
+        <div class="categories_cover">
+           
+             <div class="new_brands_t-shirt" style="    margin-top: 34px;">
+                 <h3>NEW JEWELLERY</h3>
+                 <div class="t_shirt_cards">
+                   <div class="myCard_wraper">
+                    <div class="myCard">
+                        <div class="image-jew " style="height: 225px;">
+                            <img src="./assets/image/ring-4.png" alt="" style="margin-top: 56px;"> 
+                        </div>
+                        <h6>Price $100</h6>
+                        <p>Sale</p>
+                     </div>
+                     <a href="#">Buy Now</a>
+                   </div>
+                   <div class="myCard_wraper">
+                    <div class="myCard">
+                        <div class="image-jew " style="height: 225px;">
+                            <img src="./assets/image/ring-3.png" alt="" style="margin-top: 75px;"> 
+                        </div>
+                        <h6>Price $100</h6>
+                        <p>Sale</p>
+                     </div>
+                     <a href="#">Buy Now</a>
+                   </div>
+                   <div class="myCard_wraper">
+                    <div class="myCard">
+                        <div class="image-jew " style="height: 225px;">
+                            <img src="./assets/image/ring-2.png" alt="" style="margin-top: 52px;"> 
+                        </div>
+                        <h6>Price $100</h6>
+                        <p>Sale</p>
+                     </div>
+                     <a href="#">Buy Now</a>
+                   </div>
+                   <div class="myCard_wraper">
+                    <div class="myCard">
+                        <div class="image-jew " style="height: 225px;">
+                            <img src="./assets/image/ring-1.png" alt="" style="margin-top: 74px;"> 
+                        </div>
+                        <h6>Price $100</h6>
+                        <p>Sale</p>
+                     </div>
+                     <a href="#">Buy Now</a>
+                   </div>
+                 </div>
+                
+             </div>
+             <div class="see_more"><a href="#" >See more</a></div>
+
+
+        </div>
+    </div>
+</section>
+
+<section class="categories baby_shoe" style="    background-color: #EE3E0F;
+margin-top: -22px;">
+    <div class="my_container">
+        <div class="categories_cover">
+           
+             <div class="new_brands_t-shirt" style="margin-top: 0px; height: auto; box-shadow: none;">
+                 <h3 class="h3-baby">KIDS AND BABIES</h3>
+                 <div class="cards-baby_shoe">
+                   <div class="myCard_wraper">
+                    <div class="myCard" style="background-color:#EE3E0F;">
+                        <div class="image_baby image">
+                            <img src="./assets/image/baby-shoe.png" alt=""> 
+                        </div>
+                        <h6 style="color: white;">Price $100</h6>
+                        
+                     </div>
+                   
+                   </div>
+                   <div class="myCard_wraper">
+                    <div class="myCard" style="background-color:#EE3E0F;">
+                        <div class="image_baby image">
+                            <img src="./assets/image/baby-shoe.png" alt=""> 
+                        </div>
+                        <h6  style="color: white;">Price $100</h6>
+                       
+                     </div>
+                   
+                   </div>
+                   <div class="myCard_wraper">
+                    <div class="myCard" style="background-color:#EE3E0F;">
+                        <div class="image  image_baby">
+                            <img src="./assets/image/baby-shoe.png" alt=""> 
+                        </div>
+                        <h6  style="color: white;">Price $100</h6>
+                       
+                     </div>
+                   
+                   </div>
+                   <div class="myCard_wraper">
+                    <div class="myCard" style="background-color:#EE3E0F;">
+                        <div class="image image_baby ">
+                            <img src="./assets/image/baby-shoe.png" alt=""> 
+                        </div>
+                        <h6  style="color: white;">Price $100</h6>
+                       
+                     </div>
+                   
+                   </div>
+                 </div>
+                
+             </div>
+             
+
+
+        </div>
+    </div>
+</section>
+
+ <footer>
+    <div class="my_container">
+        <div class="footer_cover">
+            <div class="footer_title">
+                <div class="title_logo_footer">
+                    <img src="/assets/image/logo1-bottom.png" alt="">
+                </div>
+                <div class="footer_links">
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer_sections">
+                <div class="contact_us">
+                    <h6>CONTACT US</h6>
+                    <ul>
+                        <li><span><i class="fa-solid fa-location-dot"> </i><p>145 londone <br> uk</p></span></li>
+                        <li><a href="#"><i class="fa-solid fa-phone"></i><p class="L-1">+12586954775</p></a></li>
+                        <li><a href="#" style="padding-top: 4px;"><i class="fa-solid fa-envelope"></i><p class="L-1">demo@gmail.com</p></a></li>
+                    </ul>
+                </div>
+                <div class="blank_footer">
+                    <div class="blank"></div>
+                </div>
+                <div class="customer_service">
+                    <h6>CUSTOMER SERVICE</h6>
+                    <ul>
+                        <li><a href="#">My account</a></li>
+                        <li><a href="#">Wishlist</a></li>
+                        <li><a href="#">My Cart</a></li>
+                        <li><a href="#">Checkout</a></li>
+                        <li><a href="#">Login</a></li>
+                    </ul>
+                </div>
+                <div class="blank_footer">
+                    <div class="blank"></div>
+                </div>
+                <div class="corporation">
+                    <h6>CORPORATION</h6>
+                    <ul>
+                        <li><a href="#">My account</a></li>
+                        <li><a href="#">Wishlist</a></li>
+                        <li><a href="#">My Cart</a></li>
+                        <li><a href="#">Checkout</a></li>
+                        <li><a href="#">Login</a></li>
+                    </ul>
+                </div>
+                <div class="blank_footer">
+                    <div class="blank"></div>
+                </div>
+                <div class="who_chose_us">
+                    <h6>WHY CHOOSE US</h6>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente voluptas aliquid cupiditate coeodi.</p>
+                    <form action="your_email_list_processor.php" method="post">
+ 
+                        <input class="input" type="email" id="email" name="email" placeholder="Your email" required>
+                        <input class="submit" type="submit" value="Subscribe">
+                      </form>
+                      
+                </div>
+            </div>
+        </div>
+    </div>
+</footer> 
+
+<section class="copyRight">
+    <p>Copyright 2019 All Right Reserved By Free html Templates</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- bootstrap -->
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <!-- mmneu -->
+    <script src="assets/js/mmenu-light.js"></script>
+    <!-- swiper -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- jquery -->
+    <script
+        src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        crossorigin="anonymous">
+    </script>
+    <!-- custom -->
+    <script src="assets/js/custom.js"></script>
+
+
+    
+</body>
+</html>
