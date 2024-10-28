@@ -274,20 +274,21 @@ footer{
             margin-top: -6px;
             margin-left: -3px;
             object-fit: cover;
-            width: 417px;
+            min-width:300px;
             aspect-ratio: 10/2;
+            height: 60px;
         }
         
     
     }
     .footer_links{
-        margin-top: -33px;
+        // margin-top: -33px;
         padding-right: 183px;
         ul{
             display: flex;
             justify-content: space-around;
             align-items: center;
-            // gap: 10px;
+            gap: 10px;
             li{
                 list-style: none;
                 
@@ -1039,9 +1040,9 @@ form{
     margin-top: 30px;
     
     .clip_discount{
-        clip-path: polygon(0 0, 95% 0, 73% 100%, 0% 100%);
+       
         background-color: $mycolor;
-        width: 67%;
+        width: 100%;
         height:auto;
         padding: 30px;
         position: absolute;
@@ -1073,6 +1074,8 @@ form{
         background-image: url('/assets/image/new_bag.jpg');
         width: 100%;
         background-size: cover;
+        // min-height: 300px;
+        display: none;
        
     }
 
@@ -1081,6 +1084,7 @@ form{
 .bag{
     padding-bottom: 40px;
     margin-top: -30px;
+   min-height: 300px;
 }
 
 
@@ -1100,7 +1104,8 @@ form{
         }
         .clip_discount{
             height: 435px !important;
-            width: 67%;
+            width: 70% !important;
+            clip-path: polygon(0 0, 95% 0, 73% 100%, 0% 100%);
             p{
                 width: 543px;
                 font-size: 100px !important;

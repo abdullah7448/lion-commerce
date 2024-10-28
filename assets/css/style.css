@@ -217,17 +217,18 @@ footer h6 {
   margin-left: -3px;
   -o-object-fit: cover;
      object-fit: cover;
-  width: 417px;
+  min-width: 300px;
   aspect-ratio: 10/2;
+  height: 60px;
 }
 .footer_title .footer_links {
-  margin-top: -33px;
   padding-right: 183px;
 }
 .footer_title .footer_links ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  gap: 10px;
 }
 .footer_title .footer_links ul li {
   list-style: none;
@@ -827,10 +828,8 @@ form a:hover {
   margin-top: 30px;
 }
 .bag_clip_cover .clip_discount {
-  -webkit-clip-path: polygon(0 0, 95% 0, 73% 100%, 0% 100%);
-          clip-path: polygon(0 0, 95% 0, 73% 100%, 0% 100%);
   background-color: #EE3E0F;
-  width: 67%;
+  width: 100%;
   height: auto;
   padding: 30px;
   position: absolute;
@@ -857,11 +856,13 @@ form a:hover {
   background-image: url("/assets/image/new_bag.jpg");
   width: 100%;
   background-size: cover;
+  display: none;
 }
 
 .bag {
   padding-bottom: 40px;
   margin-top: -30px;
+  min-height: 300px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -873,7 +874,9 @@ form a:hover {
   }
   .clip_discount {
     height: 435px !important;
-    width: 67%;
+    width: 70% !important;
+    -webkit-clip-path: polygon(0 0, 95% 0, 73% 100%, 0% 100%);
+            clip-path: polygon(0 0, 95% 0, 73% 100%, 0% 100%);
   }
   .clip_discount p {
     width: 543px;
